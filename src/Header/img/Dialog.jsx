@@ -1,5 +1,5 @@
 import React from "react";
-import p from './Dialog.module.css';
+import p from '../../Dialog/Dialog.module.css';
 import {BrowserRouter, Route} from "react-router-dom";
 
 const DialogItem = (props) =>
