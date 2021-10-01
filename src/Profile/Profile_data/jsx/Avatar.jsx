@@ -1,12 +1,13 @@
 import React from "react";
 import p from '../css/Avatar.module.css';
+import avatar from '../img/ava.jpg';
+
 
 
 const Avatar = () => {
     return <div className={p.descriptionBlock}>
         <div className={p.face}>
-            <img
-                src='https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png'/>
+            <img src={avatar} alt='avatar' />
             <a>My name</a>
         </div>
     </div>
