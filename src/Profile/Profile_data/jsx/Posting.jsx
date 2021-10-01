@@ -9,8 +9,10 @@ const Posting = () => {
         </div>
         <div>
             <div>
-                <textarea> </textarea>
-                <button>Post</button>
+                <textarea className={p.textarea}> Post news...</textarea>
+                <div>
+                    <button className={p.button}>Post</button>
+                </div>
             </div>
         </div>
     </div>
