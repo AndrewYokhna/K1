@@ -12,8 +12,9 @@
     color: darkred;
 }
 
-.dialog {
+.dialog a {
     color: darkblue;
+    text-decoration-line: none;
 }
 
 .messages {
