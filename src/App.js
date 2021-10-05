@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header/Header.jsx';
 import Navbar from './Navbar/Nav.jsx';
 import Profile from './Profile/Profile.jsx';
-import Dialog from "./Header/img/Dialog";
+import Dialog from "./Dialog/Dialog";
 import Music from "./Music/Music";
 import News from "./News/News";
 import Setting from "./Settings/Settings";

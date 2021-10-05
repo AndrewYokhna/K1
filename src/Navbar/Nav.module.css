@@ -5,7 +5,8 @@
 }
 .item a {
     color: blue;
+    text-decoration-line: none;
 }
 .item a.activeLink {
-    color: darkred;
+    color: darkblue;
 }

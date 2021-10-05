@@ -1,4 +1,4 @@
-.dialogs {
+.dialog_grid {
     display: grid;
     grid-template-areas:
             "d m";
