@@ -11,17 +11,17 @@ import {BrowserRouter, Route} from "react-router-dom";
 const App = () => {
     return (
         <BrowserRouter>
-        <div className='app-wrapper'>
-            <Header/>
-            <Navbar/>
-            <div className='app-wrapper-content'>
-                <Route exact path='/messages' component={Dialog}/>
-                <Route exact path='/profile' component={Profile}/>
-                <Route exact path='/news' component={News}/>
-                <Route exact path='/music' component={Music}/>
-                <Route exact path='/settings' component={Setting}/>
+            <div className='app-wrapper'>
+                <Header/>
+                <Navbar/>
+                <div className='app-wrapper-content'>
+                    <Route exact path='/messages' component={Dialog}/>
+                    <Route exact path='/profile' component={Profile}/>
+                    <Route exact path='/news' component={News}/>
+                    <Route exact path='/music' component={Music}/>
+                    <Route exact path='/settings' component={Setting}/>
+                </div>
             </div>
-        </div>
         </BrowserRouter>
     );
 }

@@ -1,9 +1,8 @@
 .dialog_grid {
     display: grid;
+    grid-template-columns: 2fr 10fr;
     grid-template-areas:
             "d m";
-
-    grid-template-columns: 2fr 10fr;
 }
 
 .dialogsItem {
