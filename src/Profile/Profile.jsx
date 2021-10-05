@@ -12,6 +12,10 @@ const Profile = () => {
         <Avatar />
         <Posting />
         <Posts message='hi'/>
+        <Posts message="this my first prog"/>
+        <Posts message='Post message'/>
+        <Posts message="Plan"/>
+        <Posts message='Daytime'/>
         <Posts message="2 programm"/>
     </div>
 }
