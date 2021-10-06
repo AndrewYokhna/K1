@@ -6,20 +6,20 @@ import Dialog from "./Dialog/Dialog";
 import Music from "./Music/Music";
 import News from "./News/News";
 import Setting from "./Settings/Settings";
-import {BrowserRouter, Route} from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 const App = () => {
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
-                <Header/>
-                <Navbar/>
+                <Header />
+                <Navbar />
                 <div className='app-wrapper-content'>
-                    <Route exact path='/dialog' component={Dialog}/>
-                    <Route exact path='/profile' component={Profile}/>
-                    <Route exact path='/news' component={News}/>
-                    <Route exact path='/music' component={Music}/>
-                    <Route exact path='/settings' component={Setting}/>
+                    <Route exact path='/dialog' component={Dialog} />
+                    <Route exact path='/profile' component={Profile} />
+                    <Route exact path='/news' component={News} />
+                    <Route exact path='/music' component={Music} />
+                    <Route exact path='/settings' component={Setting} />
                 </div>
             </div>
         </BrowserRouter>
