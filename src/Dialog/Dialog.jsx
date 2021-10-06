@@ -7,12 +7,7 @@ const Dialog_item = (props) => {
         <NavLink to={'dialog/' + props.id}>{props.name}</NavLink>
     </div>
 }
-let DialogsData = [
-    {id:1, name:'Andrey'},
-    {id:2, name:'Viktor'},
-    {id:3, name:'Natali'},
-    {id:4, name:'Joe'} 
-]
+
 
 const Dialog = (props) => {
     return <div className={p.dialog_grid}>
