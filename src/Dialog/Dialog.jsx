@@ -33,6 +33,8 @@ const Dialog = (props) => {
         <div className={p.dialog_background + ' ' + p.dialogsItem}>
             <Dialog_item name={Dialogs_Data[0].name} id={Dialogs_Data[0].id} />
             <Dialog_item name={Dialogs_Data[1].name} id={Dialogs_Data[1].id} />
+            <Dialog_item name={Dialogs_Data[2].name} id={Dialogs_Data[2].id} />
+            <Dialog_item name={Dialogs_Data[3].name} id={Dialogs_Data[3].id} />
         </div>
         <div className={p.messages_background}>
             <div className={p.messages}>
