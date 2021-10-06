@@ -4,12 +4,15 @@ import Posts from "./Profile_data/jsx/Posts";
 import Head from "./Profile_data/jsx/Header";
 import Posting from "./Profile_data/jsx/Posting";
 import p from './Profile_data/css/Posts.module.css';
+import like from './Profile_data/img/like.png';
 
 const Posts_Item = (props) => {
     return <div>
         <div>
             <div className={p.posts_block}> {props.post} </div>
-                <div>like {props.likesCount}</div>
+                <div ><img className={p.like}  src={like} alt='like'/>
+                    <a>{props.likesCount} </a>
+                    </div>
             </div>
         </div>
 }
