@@ -8,7 +8,7 @@ const Avatar = () => {
     return <div className={p.descriptionBlock}>
         <div className={p.face}>
             <img src={avatar} alt='avatar' />
-            <a>Andrew</a>
+            <a>Andrew Yokhna</a>
         </div>
     </div>
 }
