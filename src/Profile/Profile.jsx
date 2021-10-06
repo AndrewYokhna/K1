@@ -3,6 +3,7 @@ import Avatar from "./Profile_data/jsx/Avatar";
 import Posts from "./Profile_data/jsx/Posts";
 import Head from "./Profile_data/jsx/Header";
 import Posting from "./Profile_data/jsx/Posting";
+import p from './Profile_data/css/Posts.module.css';
 
 const Posts_Item = (props) => {
     return <div>
@@ -24,10 +25,12 @@ const Profile = (props) => {
         <Head />
         <Avatar />
         <Posting />
+        <div className={p.posts_block + ' ' + p.item}>
         <Posts_Item post={PostsData[0].message} likesCount={PostsData[0].likesCount} />
         <Posts_Item post={PostsData[1].message} likesCount={PostsData[1].likesCount} />
         <Posts_Item post={PostsData[2].message} likesCount={PostsData[2].likesCount} />
         <Posts_Item post={PostsData[3].message} likesCount={PostsData[3].likesCount} />
+        </div>
     </div>
 }
 export default Profile;
