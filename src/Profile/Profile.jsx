@@ -1,26 +1,11 @@
 import React from 'react';
 import Avatar from "./Profile_data/jsx/Avatar";
-import Posts from "./Profile_data/jsx/Posts";
 import Head from "./Profile_data/jsx/Header";
 import Posting from "./Profile_data/jsx/Posting";
 import p from './Profile_data/css/Posts.module.css';
-import like from './Profile_data/img/like.png';
+import Posts_Item from './Profile_data/jsx/Posts';
 
-const Posts_Item = (props) => {
-    return <div>
-        <ul>
-            <div>
-                <li>
-                    <div className={p.posts_block}> {props.post} </div>
-                    <div>
-                        <img className={p.like} src={like} alt='like' />
-                        <a>{props.likesCount} </a>
-                    </div>
-                </li>
-            </div>
-        </ul>
-    </div >
-}
+
 
 const Profile = (props) => {
 
