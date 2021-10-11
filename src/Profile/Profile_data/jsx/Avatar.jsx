@@ -7,8 +7,8 @@ import avatar from '../img/ava.jpg';
 const Avatar = () => {
     return <div className={p.descriptionBlock}>
         <div className={p.face}>
-            <img src={avatar} alt='avatar' />
-            <a>Andrew Yokhna</a>
+            <h2> <img src={avatar} alt='avatar' />
+                Andrew Yokhna</h2>
         </div>
     </div>
 }
