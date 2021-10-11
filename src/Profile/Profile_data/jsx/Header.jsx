@@ -4,7 +4,7 @@ import shapka from '../img/Shapka.png';
 
 
 
-const Head = () => {
+const Head = (props) => {
     return <div className={p.header_1}>
             <img src={shapka} alt='shapka' />
 
