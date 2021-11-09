@@ -1,5 +1,5 @@
 import React from "react";
-import p from "../css/Posting.module.css";
+import p from "../../css/Posting.module.css";
 
 const Posting = () => {
     return <div className={p.item + ' ' + p.postsblock}>

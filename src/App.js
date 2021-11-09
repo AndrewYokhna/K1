@@ -8,18 +8,18 @@ import News from "./News/News";
 import Setting from "./Settings/Settings";
 import { BrowserRouter, Route } from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
                 <Header />
                 <Navbar />
                 <div className='app-wrapper-content'>
-                    <Route exact path='/dialog' component={Dialog} />
-                    <Route exact path='/profile' component={Profile} />
-                    <Route exact path='/news' component={News} />
-                    <Route exact path='/music' component={Music} />
-                    <Route exact path='/settings' component={Setting} />
+                    <Route path='/dialog' render={() => < Dialog />} />
+                    <Route path='/profile' render={() => < Profile />} />
+                    <Route path='/news' render={() => < News />} />
+                    <Route path='/music' render={() => < Music />} />
+                    <Route path='/settings' render={() => < Setting />} />
                 </div>
             </div>
         </BrowserRouter>
