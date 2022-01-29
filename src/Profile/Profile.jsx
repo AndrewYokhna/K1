@@ -1,12 +1,10 @@
 import React from 'react';
 import Avatar from "./Profile_data/jsx/Profile/avatar.jpg";
 import Posts_Item from "./Profile_data/jsx/Posts/Posts.jsx";
-import Head from "./Profile_data/jsx/Profile/Header";
+import Head from "./Profile_data/jsx/Profile/Header.jsx";
 import Posting from "./Profile_data/jsx/Posts/Posting.jsx";
-import Head from "./Profile_data/jsx/Header";
-import Posting from "./Profile_data/jsx/Posting";
 import p from './Profile_data/css/Posts.module.css';    
-import Posts_Item from './Profile_data/jsx/Posts';
+
 
 
 
