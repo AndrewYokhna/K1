@@ -8,7 +8,7 @@ import p from './Profile_data/css/Posts.module.css';
 
 
 
-const Posts_Item = (props) => {
+const Posts_Item_1 = (props) => {
     return <div>
         <div>
             <div className={p.posts_block}> {props.post} </div>
@@ -33,10 +33,10 @@ const Profile = (props) => {
         <Avatar />
         <Posting />
         <div className={p.posts_block + ' ' + p.item}>
-            <Posts_Item post={PostsData[0].message} likesCount={PostsData[0].likesCount} />
-            <Posts_Item post={PostsData[1].message} likesCount={PostsData[1].likesCount} />
-            <Posts_Item post={PostsData[2].message} likesCount={PostsData[2].likesCount} />
-            <Posts_Item post={PostsData[3].message} likesCount={PostsData[3].likesCount} />
+            <Posts_Item_1 post={PostsData[0].message} likesCount={PostsData[0].likesCount} />
+            <Posts_Item_1 post={PostsData[1].message} likesCount={PostsData[1].likesCount} />
+            <Posts_Item_1 post={PostsData[2].message} likesCount={PostsData[2].likesCount} />
+            <Posts_Item_1 post={PostsData[3].message} likesCount={PostsData[3].likesCount} />
         </div>
     </div>
 }
