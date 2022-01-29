@@ -1,7 +1,7 @@
 import React from "react";
 // import Posts from "./src/Profile/Profile_data/jsx/Posts/Posts.jsx"
 import p from '../../css/Posts.module.css';
-import like from './../img/like.png';
+import like from '../../img/like.png';
 
 
 const Posts_Item = (props) => {
