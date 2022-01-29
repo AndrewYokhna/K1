@@ -1,19 +1,15 @@
 import React from 'react';
-<<<<<<< HEAD
-import Avatar from "./Profile_data/jsx/Profile/Avatar";
-import Posts from "./Profile_data/jsx/Posts/Posts.jsx";
+import Avatar from "./Profile_data/jsx/Profile/avatar.jpg";
+import Posts_Item from "./Profile_data/jsx/Posts/Posts.jsx";
 import Head from "./Profile_data/jsx/Profile/Header";
 import Posting from "./Profile_data/jsx/Posts/Posting.jsx";
-=======
-import Avatar from "./Profile_data/jsx/Avatar";
 import Head from "./Profile_data/jsx/Header";
 import Posting from "./Profile_data/jsx/Posting";
->>>>>>> 7bfbbfb4555b13cce73c104dc85962f4ce06b2ef
-import p from './Profile_data/css/Posts.module.css';
+import p from './Profile_data/css/Posts.module.css';    
 import Posts_Item from './Profile_data/jsx/Posts';
 
 
-<<<<<<< HEAD
+
 const Posts_Item = (props) => {
     return <div>
         <div>
@@ -24,8 +20,7 @@ const Posts_Item = (props) => {
         </div>
     </div>
 }
-=======
->>>>>>> 7bfbbfb4555b13cce73c104dc85962f4ce06b2ef
+
 
 const Profile = (props) => {
 
