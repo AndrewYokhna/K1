@@ -4,7 +4,7 @@ import Navbar from './Navbar/Nav.jsx';
 import Profile from './Profile/Profile.jsx';
 import Dialog from "./Dialog/Dialog";
 import Music from "./Music/Music";
-import News from "./News/News";
+import News from "./News/News"
 import Setting from "./Settings/Settings";
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -21,19 +21,13 @@ const App = (props) => {
                     <Route path='/news' render={() => < News />} />
                     <Route path='/music' render={() => < Music />} />
                     <Route path='/settings' render={() => < Setting />} />
+
                     
-                    {/* <Route exact path='/dialog' component={Dialog} />
-                    <Route exact path='/profile' component={Profile} />
-                    <Route exact path='/news' component={News} />
-                    <Route exact path='/music' component={Music} />
-                    <Route exact path='/settings' component={Setting} /> */}
-
-
-                    <Route exact path='/dialog' render={() => <Dialog />} />
+                    {/* <Route exact path='/dialog' render={() => <Dialog />} />
                     <Route exact path='/profile' render={() => <Profile />} />
                     <Route exact path='/news' render={ () => <News /> }/>
                     <Route exact path='/music' render={ () => <Music /> }/>
-                    <Route exact path='/setting' render={ () => <Setting /> }/>
+                    <Route exact path='/setting' render={ () => <Setting /> }/> */}
 
                 </div>
             </div>
