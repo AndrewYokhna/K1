@@ -6,7 +6,6 @@ import Dialog_item from './DialogItem/DialogItem';
 
 
 const Dialog = (props) => {
-<<<<<<< HEAD
      let Dialogs_Data = [
          { id: 1, name: 'Andrey' },
          { id: 2, name: 'Viktor' },
@@ -19,20 +18,6 @@ const Dialog = (props) => {
        {id:3, message: 'Fine, thanks'},
        {id:4, message: 'Go-go-go'},
    ]
-=======
-    let Dialogs_Data = [
-        { id: 1, name: 'Andrey' },
-        { id: 2, name: 'Viktor' },
-        { id: 3, name: 'Natali' },
-        { id: 4, name: 'Joe' },
-    ]
-    let Message_Data = [
-        { id: 1, message: 'Hello' },
-        { id: 2, message: 'How are you?' },
-        { id: 3, message: 'Fine, thanks' },
-        { id: 4, message: 'Go-go-go' },
-    ]
->>>>>>> 7bfbbfb4555b13cce73c104dc85962f4ce06b2ef
 
     return <div className={p.dialog_grid}>
         <div className={p.dialog_background + ' ' + p.dialogsItem}>
