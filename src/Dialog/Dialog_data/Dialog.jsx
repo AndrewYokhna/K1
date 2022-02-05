@@ -1,8 +1,18 @@
 import React from 'react';
 import p from './Dialog.module.css';
-import Message_item from './Message/Message';
-import Dialog_item from './DialogItem/DialogItem';
+import { NavLink } from "react-router-dom";
 
+const Dialog_item = (props) => {
+    let path = 'dialog/' + props.id;
+    return <div className={p.dialog}>
+        <NavLink to={path}>{props.name}</NavLink>
+    </div>
+}
+const Message_item = (props) => {
+    return <div>
+    <div className={p.message}> {props.message} </div>
+    </div>
+}
 
 
 const Dialog = (props) => {
@@ -28,10 +38,10 @@ const Dialog = (props) => {
         </div>
         <div className={p.messages_background}>
             <div className={p.messages}>
-                <Message_item message={Message_Data[0].message} />
-                <Message_item message={Message_Data[1].message} />
-                <Message_item message={Message_Data[2].message} />
-                <Message_item message={Message_Data[3].message} />
+               <Message_item message={Message_Data[0].message}/>
+               <Message_item message={Message_Data[1].message}/>
+               <Message_item message={Message_Data[2].message}/>
+               <Message_item message={Message_Data[3].message}/>
             </div>
         </div>
     </div>

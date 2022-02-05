@@ -1,6 +1,6 @@
 import p from './News.module.css'
 
-const News = () => {
+const News = (props) => {
     return (
         <div className={p.item}>
             <div>
