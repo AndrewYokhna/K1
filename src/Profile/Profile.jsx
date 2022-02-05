@@ -17,16 +17,16 @@ const Profile = (props) => {
     //     { id: 3, message: 'Post message', likesCount: 13 },
     //     { id: 4, message: 'Plan', likesCount: 14 },
     // ]
-    // return <div>
-    //     <Head />
-    //     <Avatar />
-    //     <Posting />
-    //     <div className={p.posts_block + ' ' + p.item}>
-    //         <Posts_Item post={PostsData[0].message} likesCount={PostsData[0].likesCount} />
-    //         <Posts_Item post={PostsData[1].message} likesCount={PostsData[1].likesCount} />
-    //         <Posts_Item post={PostsData[2].message} likesCount={PostsData[2].likesCount} />
-    //         <Posts_Item post={PostsData[3].message} likesCount={PostsData[3].likesCount} />
-    //     </div>
-    // </div>
+    return ( <div>
+        <Head />
+        <Avatar />
+        <Posting />
+        {/* <div className={p.posts_block + ' ' + p.item}>
+            <Posts_Item post={PostsData[0].message} likesCount={PostsData[0].likesCount} />
+            <Posts_Item post={PostsData[1].message} likesCount={PostsData[1].likesCount} />
+            <Posts_Item post={PostsData[2].message} likesCount={PostsData[2].likesCount} />
+            <Posts_Item post={PostsData[3].message} likesCount={PostsData[3].likesCount} />
+        </div> */}
+    </div> )
 }
 export default Profile;
