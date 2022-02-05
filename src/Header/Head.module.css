@@ -1,11 +1,37 @@
 .header {
-    grid-area: h;
-    height: 300px;
+    grid-area       : h;
+    height          : 300px;
     background-color: darkblue;
 
-}
-.header img {
-    width: 1200px;
+
 }
 
+.img_head {
+    position: absolute;
+    width   : 1200px;
+}
 
+/* .img_logo {
+    position : relative;
+    width    : 50px;
+    animation: move 3000ms infinite alternate ease-in-out;
+} */
+.img_logo {
+    position: relative;
+    width: 50px;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .img_logo {
+      animation: img-logo-spin infinite 20s linear;
+    }
+  }
+  @keyframes Img-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
