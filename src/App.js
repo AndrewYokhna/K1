@@ -15,13 +15,13 @@ const App = (props) => {
                 <Header />
                 <Navbar />
                 <div className='app-wrapper-content'>
-
-                    {/* <Route path='/dialog' render={() => < Dialog />} />
+<Route> 
+                    <Route path='/dialog' render={() => < Dialog />} />
                     <Route path='/profile' render={() => < Profile />} />
                     <Route path='/news' render={() => < News />} />
                     <Route path='/music' render={() => < Music />} />
-                    <Route path='/settings' render={() => < Setting />} /> */}
-
+                    <Route path='/settings' render={() => < Setting />} />
+                    </Route>
                     
                     {/* <Route exact path='/dialog' render={() => <Dialog />} />
                     <Route exact path='/profile' render={() => <Profile />} />
