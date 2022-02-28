@@ -1,5 +1,4 @@
 import React from "react";
-import Profile_Item from './Posting';
 import p from '../../css/Posts.module.css';
 import like from '../../img/like.png';
 
@@ -12,7 +11,7 @@ const Posts_Item = (props) => {
                     <div className={p.posts_block}> {props.posts} </div>
                     <div>
                         <img className={p.like} src={like} alt='like' />
-                        <a>{props.likesCount} </a>
+                        <a> {props.likesCount} </a>
                     </div>
                 </li>
             </div>

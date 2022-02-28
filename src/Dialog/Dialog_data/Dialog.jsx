@@ -16,18 +16,7 @@ const Message_item = (props) => {
 
 
 const Dialog = (props) => {
-     let Dialogs_Data = [
-         { id: 1, name: 'Andrey' },
-         { id: 2, name: 'Viktor' },
-         { id: 3, name: 'Natali' },
-         { id: 4, name: 'Joe' },
-     ]
-   let Message_Data = [
-       {id:1, message: 'Hello'},
-       {id:2, message: 'How are you?'},
-       {id:3, message: 'Fine, thanks'},
-       {id:4, message: 'Go-go-go'},
-   ]
+
 
     return <div className={p.dialog_grid}>
         <div className={p.dialog_background + ' ' + p.dialogsItem}>
