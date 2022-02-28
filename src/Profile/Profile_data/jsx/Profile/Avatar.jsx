@@ -1,10 +1,10 @@
 import React from "react";
-import p from './../../css/Avatar.module.css';
-import avatar from './../../img/avatar.jpg';
+import p from '../../css/Avatar.module.css';
+import avatar from '../../img/avatar.jpg';
 
 
 
-const Avatar = () => {
+const Avatar = (props) => {
     return <div className={p.descriptionBlock}>
         <div className={p.face}>
             <h2> <img src={avatar} alt='avatar' />

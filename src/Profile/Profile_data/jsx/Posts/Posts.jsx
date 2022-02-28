@@ -1,11 +1,11 @@
 import React from "react";
-import posts_block from "./Posting";
+import Profile_Item from './Posting';
 import p from '../../css/Posts.module.css';
 import like from '../../img/like.png';
 
 
 const Posts_Item = (props) => {
-    return <div>
+    return (<div>
         <ul>
             <div>
                 <li>
@@ -18,5 +18,6 @@ const Posts_Item = (props) => {
             </div>
         </ul>
     </div >
+    )
 }
 export default Posts_Item;
