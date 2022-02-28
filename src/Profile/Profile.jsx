@@ -5,12 +5,7 @@ import Head from "./Profile_data/jsx/Profile/Header.jsx";
 import Posting from "./Profile_data/jsx/Posts/Posting.jsx";
 import p from './Profile_data/css/Posts.module.css';
 
-let PostsData = [
-    { id: 1, message: "hi", likesCount: 11 },
-    { id: 2, message: "this my first prog", likesCount: 12 },
-    { id: 3, message: 'Post message', likesCount: 13 },
-    { id: 4, message: 'Plan', likesCount: 14 },
-]
+
 
 
 
